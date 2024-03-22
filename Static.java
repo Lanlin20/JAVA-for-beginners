@@ -1,12 +1,13 @@
 
 //This program helps you to understand how we use and access STATIC keyword and non-static feilds or members rerspectively
 public class Static {
-    static int a = 0; //NO1. Is to make the member field static using the keyword static in lower case.
+    static int a = 0; //NO1. Is to make the member field static using the keyword static in lower case. 
     public static void main(String[] args) {
         int b= 20;
         System.out.println(b);
         Static object1 =new Static();
-        System.out.println(object1.a); //N02. We create an object to refrence it to the non-static variable
+        System.out.println(object1.a); //N02. We create an object to refrence it to the non-static variable. NOTE, IF THE DOT METHOD IS 
+        //USED HERE, WE DO NOT USE THE STATIC KEYWORD ABOVE ON VARIABLE a.
     }
 
 }
